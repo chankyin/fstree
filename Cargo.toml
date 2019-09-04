@@ -1,0 +1,14 @@
+[package]
+name = "fstree"
+version = "0.1.0"
+authors = ["chankyin <chankyin1970@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+dialoguer = "0.4.0"
+filesize = "0.1.0"
+futures-util-preview = "0.3.0-alpha.18"
+indicatif = "0.11.0"
+serde = {version = "1.0", features = ["std", "derive"]}
+tokio = "0.2.0-alpha.4"
+tokio-executor = "0.2.0-alpha.4"
